@@ -8,9 +8,8 @@ Page({
   },
   hi() {
     sayHello().then(data =>{
-      const message = data + ''
       this.setData({
-        message
+        message: data
       })
     })
   }
