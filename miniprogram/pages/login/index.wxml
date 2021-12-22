@@ -1,0 +1,41 @@
+<view class="page">
+  <view class="login-form">
+      <view class="header">
+        <view class="tab active">
+          登录
+        </view>
+        <view class="tab">
+          注册
+        </view>
+      </view>
+      <view class="content">
+        <view class="title">
+          登录
+        </view>
+        <view class="title-tips">
+          嗨，你好！欢迎登录原力音乐
+        </view>
+
+        <view class="form-item">
+          <view class="lable">
+            用户名/手机
+          </view>
+          <input placeholder="请输入用户名/手机" 	placeholder-class="placeholder"/>
+        </view>
+        <view class="form-item">
+          <view class="lable">
+            密码
+          </view>
+          <input placeholder="请输入密码" 	placeholder-class="placeholder"/>
+        </view>
+
+        <view class="forget-password">
+          忘记密码？
+        </view>
+        <button>登录</button>
+        <view class="create-account">
+          没有账号？<view class="action">立即注册</view>
+        </view>
+      </view>
+  </view>
+</view>

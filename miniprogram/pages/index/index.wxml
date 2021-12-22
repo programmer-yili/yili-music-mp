@@ -1,4 +1,0 @@
-<view class="page">
-  <view class="title">{{ message }}</view>
-  <van-button plain type="info" bindtap="hi">请求数据</van-button>
-</view>

@@ -1,0 +1,135 @@
+@import '../../style/varibles.scss';
+@import '../../style/theme.scss';
+
+.page {
+  background-color: $primary-color;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+
+  .login-form {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1392rpx;
+    background: #FFFFFF;
+    border-radius: 30rpx 30rpx 0px 0px;
+    overflow: hidden;
+
+    .header {
+      width: 100%;
+      height: 88rpx;
+      line-height: 88rpx;
+      display: flex;
+      flex-direction: row;
+
+      .tab {
+        flex: 1;
+        text-align: center;
+        font-size: 14px;
+        color: $text-color;
+        letter-spacing: 0;
+        text-align: center;
+        font-weight: 400;
+        border-bottom: 4rpx solid #FFFFFF;
+
+        &.active {
+          color: $text-active-color;
+          border-bottom-color: $primary-color;
+        }
+      }
+    }
+
+    .content {
+      padding: 0 70rpx;
+
+      .title {
+        margin-top: 84rpx;
+        font-size: 48rpx;
+        color: #002251;
+        letter-spacing: 0;
+        font-weight: 500;
+        margin-bottom: 14rpx;
+      }
+
+      .title-tips {
+        height: 40rpx;
+        font-size: 28rpx;
+        color: #7A869A;
+        letter-spacing: 0;
+        line-height: 40rpx;
+        font-weight: 400;
+        margin-bottom: 70rpx;
+      }
+
+      .form-item {
+        margin-bottom: 50rpx;
+
+        .lable {
+          margin-top: 10rpx;
+          height: 26rpx;
+          font-size: 28rpx;
+          color: #C1C7D0;
+          letter-spacing: 0;
+          font-weight: 400;
+          margin-bottom: 28rpx;
+        }
+
+        input {
+          height: 88rpx;
+          opacity: 0.75;
+          background: #F2F4F7;
+          box-shadow: inset 0px 2rpx 4rpx 0px rgba(0, 0, 0, 0.04);
+          border-radius: 30rpx;
+          padding: 0 32rpx;
+
+          .placeholder {
+            height: 15rpx;
+            opacity: 0.5;
+            font-size: 32rpx;
+            color: #7A869A;
+            letter-spacing: 0;
+            font-weight: 400;
+          }
+        }
+      }
+
+      .forget-password {
+        font-size: 26rpx;
+        color: #0041C4;
+        letter-spacing: 0;
+        font-weight: 400;
+        margin-bottom: 48rpx;
+      }
+
+      button {
+        height: 44px;
+        background: #0041C4;
+        color: #FFFFFF;
+        border-radius: 10px;
+        font-size: 16px;
+        letter-spacing: 0;
+        text-align: center;
+        font-weight: 400;
+      }
+
+      .create-account {
+        margin-top: 260rpx;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        height: 14px;
+        font-size: 14px;
+        color: #7A869A;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 14px;
+        font-weight: 400;
+        .action {
+          display: inline;
+          color: #0041C4;
+        }
+      }
+    }
+  }
+}
