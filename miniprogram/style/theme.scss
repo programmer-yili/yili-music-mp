@@ -1,4 +1,5 @@
+@import './varibles.scss';
 
 page {
-  --tabs-bottom-bar-color: #0041C4;
+  --tabs-bottom-bar-color: #{$primary-color};
 }
