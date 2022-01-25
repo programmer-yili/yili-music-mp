@@ -1,4 +1,5 @@
 {
   "usingComponents": {
+    "musician-banner": "../../components/musician-banner/index"
   }
 }

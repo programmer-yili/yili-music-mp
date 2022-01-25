@@ -21,6 +21,38 @@ Page({
         desc: '1.5万播放',
         image: '../../images/hip-hop.png'
       }
+    ],
+    musicianBannerList: [
+      {
+        id: 111,
+        name: '雷哈娜',
+        category: '流行音乐',
+        photo: '../../images/musician-photo.png'
+      },
+      {
+        id: 222,
+        name: '雷哈娜',
+        category: '流行音乐',
+        photo: '../../images/musician-photo.png'
+      },
+      {
+        id: 333,
+        name: '雷哈娜',
+        category: '流行音乐',
+        photo: '../../images/musician-photo.png'
+      },
+      {
+        id: 333,
+        name: '雷哈娜',
+        category: '流行音乐',
+        photo: '../../images/musician-photo.png'
+      },
+      {
+        id: 333,
+        name: '雷哈娜',
+        category: '流行音乐',
+        photo: '../../images/musician-photo.png'
+      },
     ]
   },
 

@@ -1,0 +1,28 @@
+/* components/musician-banner/index.wxss */
+@import '../../style/varibles.scss';
+
+.header {
+  padding: 0 50rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40rpx;
+  .title {
+    font-size: 44rpx;
+    color: $text-active-color;
+    line-height: 52rpx;
+  }
+
+  .more {
+    font-size: 28rpx;
+    color: $primary-color;
+    line-height: 34rpx;
+  }
+}
+
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
