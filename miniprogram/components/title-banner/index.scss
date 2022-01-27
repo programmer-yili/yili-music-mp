@@ -1,4 +1,3 @@
-/* components/musician-banner/index.wxss */
 @import '../../style/varibles.scss';
 
 .header {
@@ -18,11 +17,4 @@
     color: $primary-color;
     line-height: 34rpx;
   }
-}
-
-
-.list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
 }

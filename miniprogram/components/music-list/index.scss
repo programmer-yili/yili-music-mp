@@ -1,0 +1,46 @@
+/* components/music-list/index.wxss */
+@import '../../style/varibles.scss';
+
+.list {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50rpx;
+  .music-card {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40rpx;
+    align-items: center;
+    .cover {
+      position: relative;
+      margin-right: 30rpx;
+      image {
+        width: 128rpx;
+        height: 128rpx;
+        border-radius: 64rpx;
+      }
+      .circle {
+        position: absolute;
+        top: calc(50% - 16rpx);
+        left: calc(50% - 16rpx);
+        width: 32rpx;
+        height: 32rpx;
+        border-radius: 16rpx;
+        background-color: #ffffff;
+      }
+    }
+
+    .info {
+       .name {
+         font-size: 32rpx;
+         color: $text-active-color;
+         line-height: 36rpx;
+       }
+       .meta {
+         margin-top: 12rpx;
+         font-size: 28rpx;
+          color: $text-color;
+          line-height: 34rpx;
+       }
+    }
+  }
+}

@@ -22,9 +22,40 @@
   </scroll-view>
 
   <view class="trending-musician">
-    <musician-banner
-     title="推荐音乐人"
-     list="{{ musicianBannerList }}"
-      ></musician-banner>
+    <title-banner title="推荐音乐人" />
+
+    <scrollable-section itemCount="{{musicianBannerList.length }}" itemWidth="{{ 290 }}">
+      <musician-card wx:for="{{musicianBannerList}}" wx:key="index"
+    item="{{ item }}" bindclick="onClick"  />
+    </scrollable-section>
   </view>
+
+  <view class="section">
+    <title-banner title="推荐歌单" />
+
+    <scrollable-section itemCount="{{ playlist.length }}" itemWidth="{{ 320 }}">
+      <album-card wx:for="{{ playlist }}" wx:key="index" item="{{item}}"/>
+    </scrollable-section>
+  </view>
+
+  <view class="section">
+    <title-banner  title="最新专辑" />
+    <scrollable-section itemCount="{{ playlist.length }}" itemWidth="{{ 320 }}">
+      <album-card wx:for="{{ playlist }}" wx:key="index" item="{{item}}"/>
+    </scrollable-section>
+  </view>
+
+  <view class="section">
+    <title-banner title="最新电台" hideMore/>
+
+    <scrollable-section  itemCount="{{ playlist.length }}" itemWidth="{{ 320 }}" >
+      <album-card wx:for="{{ playlist }}" wx:key="index" item="{{item}}"/>
+    </scrollable-section>
+  </view>
+
+  <view class="section">
+    <title-banner title="最近播放" />
+    <music-list/>
+  </view>
+
 </view>

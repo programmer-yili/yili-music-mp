@@ -1,0 +1,38 @@
+@import '../../style/varibles.scss';
+
+.album-card {
+  display: flex;
+  flex-direction: column;
+  width: 280rpx;
+  overflow: hidden;
+  align-items: center;
+
+  .image {
+    width: 280rpx;
+    height: 280rpx;
+    border-radius: 30rpx;
+    overflow: hidden;
+  }
+  .title {
+    margin-top: 20rpx;
+    font-size: 32rpx;
+    color: $text-active-color;
+    line-height: 36rpx;
+    max-width: 150rpx;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+  }
+  .description {
+    max-width: 150rpx;
+    margin-top: 10rpx;
+    font-size: 24rpx;
+    color: $text-color;
+    line-height: 30rpx;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+  }
+
+
+}

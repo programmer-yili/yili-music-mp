@@ -1,0 +1,10 @@
+/* components/musician-banner/index.wxss */
+@import '../../style/varibles.scss';
+
+
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

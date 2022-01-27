@@ -1,20 +1,23 @@
-// components/musician-banner/index.ts
+// components/title-banner/index.ts
 Component({
   /**
    * 组件的属性列表
    */
-  options: {
-    styleIsolation: 'isolated'
-  },
   properties: {
     title: {
       type: String,
-      default: ''
+      value: '默认列表'
     },
-    list: {
-      type: Array,
-      default: null
-    }
+
+    moreLabel: {
+      type: String,
+      value: '更多'
+    },
+
+    hideMore: {
+      type: Boolean,
+      value: false
+    },
   },
 
   /**
@@ -28,8 +31,6 @@ Component({
    * 组件的方法列表
    */
   methods: {
-    onClick(e: any) {
-      console.log(e)
-    }
+
   }
 })

@@ -1,0 +1,7 @@
+
+
+<scroll-view style="width: 100%;" scroll-x>
+  <view class="list" style="{{ 'width:' + (itemCount * itemWidth + 50) + 'rpx' }}">
+      <slot></slot>
+  </view>
+</scroll-view>

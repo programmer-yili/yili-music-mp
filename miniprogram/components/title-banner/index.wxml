@@ -1,0 +1,8 @@
+<view class="header">
+<view class="title">
+  {{ title }}
+</view>
+<view wx:if="{{ !hideMore }}" class="more">
+  {{ moreLabel }}
+</view>
+</view>

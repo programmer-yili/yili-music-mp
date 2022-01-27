@@ -53,6 +53,33 @@ Page({
         category: '流行音乐',
         photo: '../../images/musician-photo.png'
       },
+    ],
+    playlist: [
+      {
+        image: '../../images/album.png',
+        title: '心流歌单',
+        description: '歌单描述'
+      },
+      {
+        image: '../../images/album.png',
+        title: '心流歌单',
+        description: '歌单描述'
+      },
+      {
+        image: '../../images/album.png',
+        title: '心流歌单',
+        description: '歌单描述'
+      },
+      {
+        image: '../../images/album.png',
+        title: '心流歌单',
+        description: '歌单描述'
+      },
+      {
+        image: '../../images/album.png',
+        title: '心流歌单',
+        description: '歌单描述'
+      }
     ]
   },
 
