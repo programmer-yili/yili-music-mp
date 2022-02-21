@@ -56,26 +56,31 @@ Page({
     ],
     playlist: [
       {
+        id: 'dfds',
         image: '../../images/album.png',
         title: '心流歌单',
         description: '歌单描述'
       },
       {
+        id: 'dfds',
         image: '../../images/album.png',
         title: '心流歌单',
         description: '歌单描述'
       },
       {
+        id: 'dfds',
         image: '../../images/album.png',
         title: '心流歌单',
         description: '歌单描述'
       },
       {
+        id: 'dfds',
         image: '../../images/album.png',
         title: '心流歌单',
         description: '歌单描述'
       },
       {
+        id: 'dfds',
         image: '../../images/album.png',
         title: '心流歌单',
         description: '歌单描述'

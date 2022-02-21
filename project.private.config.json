@@ -1,4 +1,5 @@
 {
+  "setting": {},
   "condition": {
     "plugin": {
       "list": []
@@ -15,6 +16,12 @@
           "name": "pages/login/index",
           "pathName": "pages/login/index",
           "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/play-list/detail",
+          "query": "id=dfds",
           "scene": null
         }
       ]
