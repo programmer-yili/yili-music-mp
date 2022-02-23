@@ -1,0 +1,54 @@
+/* pages/play-list/detail.wxss */
+@import '../../style/theme.scss';
+
+  .header-background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 750rpx;
+    height: 470rpx;
+    z-index: -1;
+  }
+  .header {
+    margin-top: 250rpx;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .cover {
+      width: 320rpx;
+      height: 320rpx;
+      border-radius: 34rpx;
+      margin-bottom: 40rpx;
+    }
+    .name {
+      color: $text-active-color;
+      font-size: 36rpx;
+      line-height: 42rpx;
+      margin-bottom: 20rpx;
+    }
+
+    .description {
+      color: $text-color;
+      max-width: 476rpx;
+      height: 56rpx;
+      font-size: 24rpx;
+      line-height: 30rpx;
+      line-clamp: 2;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-align: center;
+    }
+  }
+  .action-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 32rpx;
+    y-button {
+      margin-right: 20rpx;
+    }
+  }
+  .music-list {
+    margin-top: 60rpx;
+  }

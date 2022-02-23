@@ -4,7 +4,7 @@
     "pages/search/index",
     "pages/lib/index",
     "pages/login/index",
-    "pages/play-list/detail"
+    "pages/playlist/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

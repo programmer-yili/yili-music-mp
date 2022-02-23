@@ -1,18 +1,26 @@
 // pages/play-list/detail.ts
+
+import {detail} from '../../api/playlist'
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    detail: null
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad() {
-
+  onLoad(option) {
+    const {id} = option;
+    detail(id).then(res=>{
+      this.setData({
+        detail: res
+      })
+    })
   },
 
   /**

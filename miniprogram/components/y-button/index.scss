@@ -1,0 +1,51 @@
+@import '../../style/theme.scss';
+.btn {
+button {
+  border-radius: 20rpx;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 20rpx;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -webkit-text-size-adjust: 100%;
+  font-size: 32rpx;
+  line-height: 36rpx;
+  height: 88rpx;
+  color: white;
+  &::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: none; /* inherit parent's border radius */
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    content: ' ';
+    background-color: black;
+    border-color: black;
+  }
+  &::after {
+    border-width: 0;
+  }
+
+  &.primary {
+    background-color: $primary-color;
+  }
+
+  &.info {
+    background-color: $info-color;
+  }
+
+  .icon {
+    width: 48rpx;
+    height: 48rpx;
+
+  }
+}
+}

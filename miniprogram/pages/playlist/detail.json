@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "y-button": "../../components/y-button/index",
+    "music-list": "../../components/music-list/index"
+
+  }
+}

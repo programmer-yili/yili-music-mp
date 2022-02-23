@@ -85,6 +85,12 @@ Page({
         title: '心流歌单',
         description: '歌单描述'
       }
+    ],
+    musicList: [
+      {cover: '../../images/yequ.jpeg', name: '夜曲', album: '十一月的肖邦', artist: '周杰伦'},
+      {cover: '../../images/yequ.jpeg', name: '夜曲', album: '十一月的肖邦', artist: '周杰伦'},
+      {cover: '../../images/yequ.jpeg', name: '夜曲', album: '十一月的肖邦', artist: '周杰伦'},
+      {cover: '../../images/yequ.jpeg', name: '夜曲', album: '十一月的肖邦', artist: '周杰伦'}
     ]
   },
 

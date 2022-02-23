@@ -55,7 +55,7 @@
 
   <view class="section">
     <title-banner title="最近播放" />
-    <music-list/>
+    <music-list list="{{musicList}}"/>
   </view>
 
 </view>

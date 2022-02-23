@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>iconspace_Favourite 1_25px</title>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3110-Playlist-Played" transform="translate(-324.000000, -984.000000)" fill="#7A869A">
+            <g id="Song" transform="translate(25.000000, 455.000000)">
+                <g id="Song-8" transform="translate(0.000000, 511.000000)">
+                    <g id="Love-Song" transform="translate(289.000000, 7.000000)">
+                        <g id="Component/Icon/Arrow-Up-Copy-2" transform="translate(18.000000, 18.333333) rotate(-360.000000) translate(-18.000000, -18.333333) translate(10.000000, 11.333333)">
+                            <g id="iconspace_Favourite-1_25px" transform="translate(0.000000, 0.000000)">
+                                <path d="M8.37384182,1.29702637 C10.118431,-0.432342125 12.946892,-0.432342125 14.6914812,1.29702637 C16.4361729,3.02649654 16.4361729,5.83059799 14.6914812,7.56006815 L8.33269048,13.8633816 C8.14892937,14.0455395 7.85107063,14.0455395 7.66730952,13.8633816 L1.3085188,7.56006815 C-0.436172933,5.83059799 -0.436172933,3.02649654 1.3085188,1.29702637 C3.05310797,-0.432342125 5.88156901,-0.432342125 7.62615818,1.29702637 L8,1.66760661 L8.37384182,1.29702637 Z" id="Path"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

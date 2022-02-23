@@ -20,8 +20,8 @@
         },
         {
           "name": "",
-          "pathName": "pages/play-list/detail",
-          "query": "id=dfds",
+          "pathName": "pages/playlist/detail",
+          "query": "id=11",
           "scene": null
         }
       ]

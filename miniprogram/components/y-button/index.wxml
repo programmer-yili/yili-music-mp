@@ -1,0 +1,7 @@
+<view class="btn">
+  <button class="{{ type }} " style="{{ width ? 'width: ' + width : ''}}">
+    <image wx:if="{{ icon }}" class="icon" src="{{ '../../icons/' + icon +  '.svg' }}"></image>
+    <slot>
+    </slot>
+  </button>
+</view>

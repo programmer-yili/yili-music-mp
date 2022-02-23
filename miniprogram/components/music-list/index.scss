@@ -30,6 +30,7 @@
     }
 
     .info {
+      flex: 1;
        .name {
          font-size: 32rpx;
          color: $text-active-color;
@@ -41,6 +42,12 @@
           color: $text-color;
           line-height: 34rpx;
        }
+    }
+
+    .likeable {
+      width: 32rpx;
+      height: 30rpx;
+      margin-right: 20rpx;
     }
   }
 }

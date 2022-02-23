@@ -1,0 +1,18 @@
+<view class="page">
+  <image class="header-background-image" src="../../images/playlist-back-image.svg" />
+
+  <view class="header">
+    <image class="cover" src="../../images/playlist-cover.svg"></image>
+    <view class="name">{{ detail.name }}</view>
+    <view class="description">{{ detail.description }}</view>
+  </view>
+
+  <view class="action-area">
+    <y-button width="442rpx">播放</y-button>
+    <y-button type="info" icon="save"></y-button>
+  </view>
+
+  <view class="music-list">
+    <music-list likeable list="{{ detail.musicList }}"/>
+  </view>
+</view>
