@@ -1,0 +1,28 @@
+/* components/navigator/index.wxss */
+
+@import '../../style/theme.scss';
+
+.navigator {
+  position: absolute;
+  box-sizing: border-box;
+  left: 0;
+  height: 44rpx;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 52rpx;
+  .left-icon {
+    width: 44rpx;
+    height: 44rpx;
+  }
+  .title {
+    flex: 1;
+    text-align: center;
+    padding-right: 44rpx;
+    color: $text-active-color;
+    font-size: 36rpx;
+    line-height: 44rpx;
+  }
+
+}

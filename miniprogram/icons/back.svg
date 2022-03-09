@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>iconspace_Up_25px</title>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4080-Podcast-Scroll" transform="translate(-26.000000, -72.000000)">
+            <g id="Tittle" transform="translate(25.000000, 71.000000)">
+                <g id="Component/Icon/Arrow-Up" transform="translate(12.000000, 12.000000) rotate(-90.000000) translate(-12.000000, -12.000000) translate(1.000000, 1.000000)">
+                    <g id="iconspace_Up_25px" transform="translate(0.000000, -0.000000)">
+                        <polygon id="Path" points="0 0 22 0 22 22 0 22"></polygon>
+                        <path d="M11.2117748,7.80659925 L3.7908232,16.0612463 C3.54712961,16.3323172 3.12983049,16.354511 2.85875952,16.1108174 C2.58768855,15.8671238 2.5654948,15.4498247 2.80918839,15.1787537 L10.7204139,6.37875373 C10.9824334,6.08729813 11.4392219,6.08704649 11.7015623,6.37821323 L19.6303368,15.1782132 C19.8743288,15.4490155 19.8525949,15.8663389 19.5817926,16.110331 C19.3109903,16.3543231 18.8936669,16.3325891 18.6496748,16.0617868 L11.2117748,7.80659925 Z" id="Path" fill="#002251"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

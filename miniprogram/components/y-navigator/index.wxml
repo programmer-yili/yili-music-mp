@@ -1,0 +1,6 @@
+<view class="navigator" style="{{'top: ' + top +'px; height: ' + height + 'px;'}}">
+  <image wx:if="{{ back }}" class="left-icon" src="../../icons/back.svg" bindtap="goBack" />
+  <view class="title">
+      {{ title }}
+  </view>
+</view>

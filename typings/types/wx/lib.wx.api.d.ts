@@ -11534,6 +11534,7 @@ worker.postMessage({
         terminate(): void
     }
     interface Wx {
+        [x: string]: any
         /**
 小程序云开发
 */

@@ -5,7 +5,7 @@
   },
   "miniprogramRoot": "miniprogram/",
   "compileType": "miniprogram",
-  "libVersion": "2.15.0",
+  "libVersion": "2.22.1",
   "projectname": "yili-music-mp",
   "setting": {
     "urlCheck": false,

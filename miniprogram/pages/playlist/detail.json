@@ -1,7 +1,7 @@
 {
   "usingComponents": {
     "y-button": "../../components/y-button/index",
-    "music-list": "../../components/music-list/index"
-
+    "music-list": "../../components/music-list/index",
+    "y-navigator": "/components/y-navigator/index"
   }
 }

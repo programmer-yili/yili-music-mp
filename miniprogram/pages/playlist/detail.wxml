@@ -1,3 +1,4 @@
+<y-navigator title="歌单详情"></y-navigator>
 <view class="page">
   <image class="header-background-image" src="../../images/playlist-back-image.svg" />
 
