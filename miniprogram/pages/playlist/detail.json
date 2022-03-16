@@ -2,6 +2,8 @@
   "usingComponents": {
     "y-button": "../../components/y-button/index",
     "music-list": "../../components/music-list/index",
-    "y-navigator": "/components/y-navigator/index"
+    "y-navigator": "/components/y-navigator/index",
+    "header-background": "/components/header-background/index"
+
   }
 }

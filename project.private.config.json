@@ -13,15 +13,21 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/login/index",
+          "name": "登录",
           "pathName": "pages/login/index",
           "query": "",
           "scene": null
         },
         {
-          "name": "",
+          "name": "歌单详情",
           "pathName": "pages/playlist/detail",
           "query": "id=11",
+          "scene": null
+        },
+        {
+          "name": "检索页面",
+          "pathName": "pages/search/index",
+          "query": "",
           "scene": null
         }
       ]

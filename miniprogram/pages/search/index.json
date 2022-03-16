@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "header-background": "/components/header-background/index",
+    "y-search": "/components/y-search/index"
+  }
 }

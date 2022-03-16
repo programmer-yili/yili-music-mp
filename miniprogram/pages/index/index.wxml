@@ -3,7 +3,7 @@
     <image class="header-bg" src="../../images/header-bg.png"></image>
     <view class="user-box">
       <view class="avatar-box">
-          <view>依</view>
+        <view>依</view>
       </view>
       <view class="notification-box">
         <image class="bell-icon" src="../../images/bell.svg"></image>
@@ -12,12 +12,16 @@
       </view>
     </view>
   </view>
-  
-  <scroll-view class="category-banner-list" scroll-x>
-    <view style="{{'width: ' + (320 * categoryBannerList.length + 40) + 'rpx; height: 440rpx;'}}">
-      <view class="category-box" wx:for="{{ categoryBannerList }}" wx:key="index">
-      <image src="{{ item.image }}"></image>
-    </view>
+
+  <scroll-view class="recommend-playlists" scroll-x>
+    <view style="{{'width: ' + (320 * recommendPlaylists.length + 40) + 'rpx; height: 440rpx;'}}">
+      <view class="playlist-box" wx:for="{{ recommendPlaylists }}" wx:key="index">
+        <image src="{{ item.recommendCover }}"></image>
+        <view class="meta">
+          <view class="name">{{ item.name }}</view>
+          <view class="description">{{ item.playTimes }} 播放量</view>
+        </view>
+      </view>
     </view>
   </scroll-view>
 
@@ -25,8 +29,7 @@
     <title-banner title="推荐音乐人" />
 
     <scrollable-section itemCount="{{musicianBannerList.length }}" itemWidth="{{ 290 }}">
-      <musician-card wx:for="{{musicianBannerList}}" wx:key="index"
-    item="{{ item }}" bindclick="onClick"  />
+      <musician-card wx:for="{{musicianBannerList}}" wx:key="index" item="{{ item }}" bindclick="onClick" />
     </scrollable-section>
   </view>
 
@@ -34,28 +37,28 @@
     <title-banner title="推荐歌单" />
 
     <scrollable-section itemCount="{{ playlist.length }}" itemWidth="{{ 320 }}">
-      <album-card wx:for="{{ playlist }}" wx:key="index" item="{{item}}"/>
+      <album-card wx:for="{{ playlist }}" wx:key="index" item="{{item}}" />
     </scrollable-section>
   </view>
 
   <view class="section">
-    <title-banner  title="最新专辑" />
+    <title-banner title="最新专辑" />
     <scrollable-section itemCount="{{ playlist.length }}" itemWidth="{{ 320 }}">
-      <album-card wx:for="{{ playlist }}" wx:key="index" item="{{item}}"/>
+      <album-card wx:for="{{ playlist }}" wx:key="index" item="{{item}}" />
     </scrollable-section>
   </view>
 
   <view class="section">
-    <title-banner title="最新电台" hideMore/>
+    <title-banner title="最新电台" hideMore />
 
-    <scrollable-section  itemCount="{{ playlist.length }}" itemWidth="{{ 320 }}" >
-      <album-card wx:for="{{ playlist }}" wx:key="index" item="{{item}}"/>
+    <scrollable-section itemCount="{{ playlist.length }}" itemWidth="{{ 320 }}">
+      <album-card wx:for="{{ playlist }}" wx:key="index" item="{{item}}" />
     </scrollable-section>
   </view>
 
   <view class="section">
     <title-banner title="最近播放" />
-    <music-list list="{{musicList}}"/>
+    <music-list list="{{musicList}}" />
   </view>
 
 </view>

@@ -1,2 +1,4 @@
-<!--pages/search/index.wxml-->
-<text>pages/search/index.wxml</text>
+<view class="page">
+  <header-background />
+  <y-search model:value="{{ keyword }}"/>
+</view>

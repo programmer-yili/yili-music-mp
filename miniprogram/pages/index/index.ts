@@ -5,6 +5,23 @@ Page({
    * 页面的初始数据
    */
   data: {
+    recommendPlaylists: [
+      {
+        name: '说唱音乐',
+        playTimes: '1.5万',
+        recommendCover: '../../images/recommend-playlist.png'
+      },
+      {
+        name: '说唱音乐',
+        playTimes: '1.5万',
+        recommendCover: '../../images/recommend-playlist.png'
+      },
+      {
+        name: '说唱音乐',
+        playTimes: '1.5万',
+        recommendCover: '../../images/recommend-playlist.png'
+      }
+    ],
     categoryBannerList: [
       {
         title: '流行音乐',

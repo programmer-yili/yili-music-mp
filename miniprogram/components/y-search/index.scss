@@ -1,0 +1,40 @@
+/* components/y-search/index.wxss */
+@import '../../style/theme.scss';
+
+
+.search-input {
+  margin-top: 180rpx;
+  width: 650rpx;
+  height: 100rpx;
+  background: #FFFFFF;
+  box-shadow: 0rpx 20rpx 150rpx 0rpx rgba(0, 0, 0, 0.05);
+  border-radius: 20rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 44rpx;
+  box-sizing: border-box;
+  .search-icon {
+    width: 40rpx;
+    height: 40rpx;
+  }
+  input {
+    flex-grow: 1;
+    padding: 0 24rpx;
+    font-size: 32rpx;
+    height: 36rpx;
+    line-height: 36rpx;
+    color: $text-active-color;
+  }
+  .placeholder {
+    font-size: 32rpx;
+    height: 36rpx;
+    line-height: 36rpx;
+    color: $placeholder-text-color;
+  }
+  
+  .clear-icon {
+    width: 32rpx;
+    height: 32rpx;
+  }
+}
+
