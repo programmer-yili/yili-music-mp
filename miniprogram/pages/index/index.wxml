@@ -13,10 +13,10 @@
     </view>
   </view>
 
-  <scroll-view class="recommend-playlists" scroll-x>
-    <view style="{{'width: ' + (320 * recommendPlaylists.length + 40) + 'rpx; height: 440rpx;'}}">
-      <view class="playlist-box" wx:for="{{ recommendPlaylists }}" wx:key="index">
-        <image src="{{ item.recommendCover }}"></image>
+  <scroll-view wx:if="{{ recommendedPlaylists.length }}" class="recommend-playlists" scroll-x>
+    <view style="{{'width: ' + (320 * recommendedPlaylists.length + 40) + 'rpx; height: 440rpx;'}}">
+      <view bindtap="gotoPlaylist" data-id="{{ item.id }}" class="playlist-box" wx:for="{{ recommendedPlaylists }}" wx:key="index">
+        <image src="../../images/recommend-playlist.png"></image>
         <view class="meta">
           <view class="name">{{ item.name }}</view>
           <view class="description">{{ item.playTimes }} 播放量</view>
@@ -25,26 +25,26 @@
     </view>
   </scroll-view>
 
-  <view class="trending-musician">
-    <title-banner title="推荐音乐人" />
+  <view wx:if="{{recommendedAritsts.length }}" class="trending-musician">
+    <title-banner title="推荐歌手" />
 
-    <scrollable-section itemCount="{{musicianBannerList.length }}" itemWidth="{{ 290 }}">
-      <musician-card wx:for="{{musicianBannerList}}" wx:key="index" item="{{ item }}" bindclick="onClick" />
+    <scrollable-section itemCount="{{recommendedAritsts.length }}" itemWidth="{{ 290 }}">
+      <musician-card wx:for="{{recommendedAritsts}}" wx:key="index" item="{{ item }}" bindclick="onClick" />
     </scrollable-section>
   </view>
 
-  <view class="section">
+  <view wx:if="{{ specialPlaylists.length }}" class="section">
     <title-banner title="特色歌单" />
 
-    <scrollable-section itemCount="{{ playlist.length }}" itemWidth="{{ 320 }}">
-      <album-card wx:for="{{ playlist }}" wx:key="index" item="{{item}}" />
+    <scrollable-section itemCount="{{ specialPlaylists.length }}" itemWidth="{{ 320 }}">
+      <album-card wx:for="{{ specialPlaylists }}" wx:key="index" item="{{item}}" />
     </scrollable-section>
   </view>
 
-  <view class="section">
+  <view wx:if="{{ ablums.length }}" class="section">
     <title-banner title="最新专辑" />
-    <scrollable-section itemCount="{{ playlist.length }}" itemWidth="{{ 320 }}">
-      <album-card wx:for="{{ playlist }}" wx:key="index" item="{{item}}" />
+    <scrollable-section itemCount="{{ ablums.length }}" itemWidth="{{ 320 }}">
+      <album-card wx:for="{{ ablums }}" wx:key="index" item="{{item}}" />
     </scrollable-section>
   </view>
 

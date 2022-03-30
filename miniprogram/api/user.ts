@@ -11,5 +11,5 @@ export const login = (loginRequest: LoginRequest) => {
 }
 
 export const getUserInfo = () => {
-  return cloudGet('/users/me')
+  return get('/users/me')
 }

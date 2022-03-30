@@ -1,6 +1,6 @@
 <view wx:if="{{ item }}" class="card" bindtap="onTab">
-  <image class="photo" src="{{ item.photo }}"></image>
+  <image mode="aspectFill" class="photo" src="{{ item.photo.uri }}"></image>
   <view class="name">{{ item.name }}</view>
-  <view class="category">{{ item.category }}</view>
+  <view class="category">{{ item.remark }}</view>
 </view>
 

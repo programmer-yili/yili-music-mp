@@ -21,19 +21,16 @@
     "borderStyle": "white",
     "list": [{
       "pagePath": "pages/index/index",
-      "text": "首页",
       "iconPath": "./images/home.png",
       "selectedIconPath": "./images/home-active.png"
     },
     {
       "pagePath": "pages/search/index",
-      "text": "搜索",
       "iconPath": "./images/search.png",
       "selectedIconPath": "./images/search-active.png"
     },
     {
       "pagePath": "pages/lib/index",
-      "text": "音乐库",
       "iconPath": "./images/lib.png",
       "selectedIconPath": "./images/lib-active.png"
     }

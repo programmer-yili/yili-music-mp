@@ -1,6 +1,6 @@
 // pages/play-list/detail.ts
 
-import {detail} from '../../api/playlist'
+import playlist from '../../api/playlist'
 
 Page({
 
@@ -16,7 +16,7 @@ Page({
    */
   onLoad(option) {
     const {id} = option;
-    detail(id).then(res=>{
+    playlist.detail(id).then(res=>{
       this.setData({
         detail: res
       })

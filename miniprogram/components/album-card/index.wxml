@@ -1,5 +1,5 @@
 <view wx:if="{{ item }}" class="album-card" bindtap="onTab">
-  <image class="image" src="{{ item.image }}"></image>
-  <view class="title">{{ item.title }}</view>
+  <image mode="aspectFill" class="image" src="{{ item.cover.uri || '' }}"></image>
+  <view class="title">{{ item.name }}</view>
   <view class="description">{{ item.description }}</view>
 </view>

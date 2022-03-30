@@ -2,7 +2,7 @@
 <view class="page">
   <header-background />
   <view class="header">
-    <image class="cover" src="../../images/playlist-cover.svg"></image>
+    <image mode="aspectFill" class="cover" src="{{ detail.cover.uri || '../../images/playlist-cover.svg' }}"></image>
     <view class="name">{{ detail.name }}</view>
     <view class="description">{{ detail.description }}</view>
   </view>

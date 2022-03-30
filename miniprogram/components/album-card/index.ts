@@ -28,7 +28,7 @@ Component({
   methods: {
     onTab() {
       wx.navigateTo({
-        url: '/pages/playlist/detail?id=11'
+        url: `/pages/playlist/detail?id=${this.data.item.id}`
       })
     }
   }
