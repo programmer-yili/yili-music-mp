@@ -1,0 +1,5 @@
+<view class="cloud-call-page">
+  <button bindtap="login">点击登录</button>
+  <button bindtap="getUser">点击获取用户</button>
+
+</view>

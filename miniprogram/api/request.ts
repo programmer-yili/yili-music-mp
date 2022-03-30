@@ -1,7 +1,7 @@
 import { getToken, removeToken, setToken } from "../utils/auth"
 
 const baseUrl = 'http://localhost:8080'
-
+wx.cloud.init()
 
 export const get = (uri: string) => {
     wx.showLoading({
@@ -11,6 +11,9 @@ export const get = (uri: string) => {
     return new Promise<any>((resolve, reject)=>{
       wx.request({
         url: baseUrl + uri,
+        header:{
+          'Authorization': 'Bearer ' + getToken()
+        },
         method: 'GET',
         success: (res)=>{
           if(res.statusCode === 401) {
@@ -74,6 +77,22 @@ export const post = (uri: string, data: object) => {
     })
   })
 }
+
+export const cloudPost = (uri: string, data: object) => {
+  return     wx.cloud.callContainer({
+  "config": {
+    "env": "prod-1gj2x32n3415fe1e"
+  },
+  "path": uri,
+  "header": {
+    "X-WX-SERVICE": "yili-music",
+    "content-type": "application/json"
+  },
+  "method": "POST",
+  "data": data
+})
+} 
+
 
 
 const _handleToken = (header: any) => {

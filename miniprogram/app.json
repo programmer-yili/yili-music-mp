@@ -4,7 +4,8 @@
     "pages/search/index",
     "pages/lib/index",
     "pages/login/index",
-    "pages/playlist/detail"
+    "pages/playlist/detail",
+    "pages/cloud-call/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
